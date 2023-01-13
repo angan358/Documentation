@@ -1,0 +1,83 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+}
+
+header {
+    border: 1px solid grey;
+    height: 100vh;
+}
+
+nav h1 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    color: #000;
+}
+
+nav ul li:hover {
+    background: #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+/* introduction nad main section styling part */
+
+main {
+    padding: 50px;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section article {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+section h2 {
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+}
+
+section article ul {
+    margin-left: 20px;
+}
